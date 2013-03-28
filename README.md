@@ -1,3 +1,16 @@
+# My technical blog
+
+This blog is a light-weight blog to record my learning notes of programming.
+
+## Websits
+
+Just visit: http://deercoder.github.com
+
+
+-------------------------------------------------------------------------------------
+
+
+
 # Jekyll-Bootstrap
 
 The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages

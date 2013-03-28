@@ -1,24 +1,12 @@
 ---
-layout: default 
-title: deercoder 
+layout: page
+title: Welcome to deercoder's Garden!
 ---
+{% include JB/setup %}
 
-{% assign first_post = site.posts.first %}
-<div id="post">
-<h1> <a href = "{{ first_post.url }}">
-{{ first_post.title }}
-</a></h1>
-
-<div class="authoring">
-  {{ first_post.date | date: "%B %e, %Y" }}
-</div>
-{{ first_post.content }}
-{% include disqus.html %}
-</div>
-
-<h1> Newest 10 Posts </h1>
+### Post lists
 <ul class="posts">
-  {% for post in site.posts limit:10 %}
-  <li><span class="post_date">{{ post.date | date: "%B %e, %Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
