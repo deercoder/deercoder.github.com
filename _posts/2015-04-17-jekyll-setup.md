@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "To-do-List(time-tracking)"
+title: "Setting up Github blog using Jekyll"
 description: ""
 category: 
 tags: []
