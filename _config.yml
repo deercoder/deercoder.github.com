@@ -10,9 +10,9 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Deercoder's Garden
+title : deercoder
 author :
-  name : Deercoder 
+  name : deercoder 
   email : lllccc2009@gmail.com
   github : deercoder 
 
