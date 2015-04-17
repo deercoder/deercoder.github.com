@@ -1,16 +1,12 @@
 ---
 layout: post
-title: "Stanford Class"
+title: "斯坦福大学开放课程--编程范式（四）"
 description: ""
 category: 
 tags: []
 ---
 {% include JB/setup %}
 
-
-#### 斯坦福大学开放课程--编程范式（四）
-------------------------------------------
-              
  
 ####综述
 -----
