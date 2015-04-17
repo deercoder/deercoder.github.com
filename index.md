@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to deercoder's Garden!
+title: Welcome
 ---
 {% include JB/setup %}
 
