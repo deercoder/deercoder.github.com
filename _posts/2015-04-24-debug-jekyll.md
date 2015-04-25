@@ -86,6 +86,9 @@ Here is the steps that I marked for debugging jekyll:
 
 + Try the command in your root webpage folders, and see the output log, analysis it with your professional skills and try to debug them.
 
+### Update
+
+Today I tried the `jekyll --server 4000`, but it gives the indication that it is deprecated, but when I use `jekyll serve`, it succeeded, so I'm rather confused on this issue now, maybe there is some tricky behind them. And we should choose the right command correspondingly.
 
 ### Appendix
 Some useful commands that works well:
