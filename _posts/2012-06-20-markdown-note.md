@@ -2,7 +2,7 @@
 layout: post
 title: "Markdown Note"
 description: ""
-category: 
+category: Markdown
 tags: []
 ---
 {% include JB/setup %}

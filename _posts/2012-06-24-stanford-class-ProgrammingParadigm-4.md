@@ -2,7 +2,7 @@
 layout: post
 title: "斯坦福大学开放课程--编程范式（四）"
 description: ""
-category: 
+category: Opencourse
 tags: []
 ---
 {% include JB/setup %}
