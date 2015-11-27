@@ -12,7 +12,7 @@ After the last [post](http://deercoder.github.io/2015/04/17/1-jekyll-setup/), I 
 Here is the steps that I marked for debugging jekyll:
 
 + The first thing I think of is that maybe it is still due to the older version of Jekyll, so I start to do some checking. During this process, I reinstall the jekyll by the following commands:
-	
+
 		gem install jekyll
 
 	In a very strange way, it installs and additionaly install many other gem packages as well. So there are some dots in my head and I think maybe it's wrong with my current settings, the reason is that some updates corrupts my environment for Jekyll and other softwares.
@@ -22,7 +22,7 @@ Here is the steps that I marked for debugging jekyll:
 + To solve it, I rechecked all the steps that I used before, and want to do that again, especially the essentail software like `rdiscount`. So I installed rdiscount and find that it is **installing**.
 
 + When coming to this stage, I know that maybe I have upgraded some software and that old-installed softwares are no longer useful, so I doubted that what I did before works well right now. Because when I run `jekyll serve` it still gives out some strange error like this:
-	
+
 		changliu@changliu-ThinkPad-T440s:~/github/deercoder.github.com$ jekyll serve
 		Configuration file: /home/changliu/github/deercoder.github.com/_config.yml
 		Building site: /home/changliu/github/deercoder.github.com -> serve
@@ -75,7 +75,7 @@ Here is the steps that I marked for debugging jekyll:
 		localhost - - [24/Apr/2015:17:38:17 EDT] "GET /assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css HTTP/1.1" 200 112427
 		http://127.0.0.1:4000/ -> /assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css
 
-+ When the output gives some webpages information, I think I have done it right, and it works well now, as I could visit [http://127.0.0.1:4000/](http://127.0.0.1:4000/) 
++ When the output gives some webpages information, I think I have done it right, and it works well now, as I could visit [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
 
 
 ### Summary
@@ -96,7 +96,4 @@ Some useful commands that works well:
 	$ curl -L https://get.rvm.io | bash -s stable --ruby # install rvm before ruby
 	gem install jekyll
 	gem install jekyll rdiscount
-	jekyll --server 4000 # jekyll serve
-
-
-
+	jekyll --server 4000 # jekyll serve 4000, for newer version, use this instead
