@@ -10,7 +10,7 @@ tags: []
 
 ##Jekyll Install Problem
 
-When I pick up the Jekyll and want to update my github [website](deercoder.github.io), I suddenly find that it is not
+When I pick up the Jekyll and want to update my github [website](http://deercoder.github.io), I suddenly find that it is not
 working well in my local machine, even the `ruby` environment is not well.
 
 So I read the post that I wrote before, see [here](http://deercoder.github.io/jekyll/2015/04/24/debug-jekyll/) and [here](http://deercoder.github.io/jekyll/2015/04/17/1-jekyll-setup/)
